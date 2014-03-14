@@ -1,0 +1,28 @@
+Net-NewRelic
+============
+
+This module exposes a Perl interface to the NewRelic Agent SDK.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+   
+DEPENDENCIES
+
+For the time being, this module expects you to have a copy of the NewRelic
+Agent SDK installed under /opt/newrelic
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2014 by Philippe M. Chiasson
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.18.2 or,
+at your option, any later version of Perl 5 you may have available.
+
+

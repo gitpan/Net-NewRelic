@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a5b7b8409a2ebe9d1100c1c3832059bdf262fa40 Changes
+SHA1 88d211cddbfbcc75fa8a3579304b5df5d0549f9e MANIFEST
+SHA1 cb79db678fb67d62507380f52226b633e652afff MANIFEST.SKIP
+SHA1 a160d735153bbe3701fe12ea5a4a2ef791fddfab META.json
+SHA1 cd869dc9dc538cfbca7bcde5a4a1265e5b2c170a META.yml
+SHA1 9322091d28f1d3fa7ce512fb33168326e1343f1f Makefile.PL
+SHA1 8953b028c0ff140423d2bd4d89cf09d7fa5eab51 NewRelic.xs
+SHA1 e13feb9b47f5cfeb18cb0731ee30e53209bbbcb2 README
+SHA1 b2780e159785899007dc9f8e3e41d26055c5266e fallback/const-c.inc
+SHA1 a8faf70fc9e2b24c9193f91c43f133100eb99d08 fallback/const-xs.inc
+SHA1 cd956729a1b207c9dfea469ac662ca29bf6a0569 inc/Devel/CheckLib.pm
+SHA1 49eb653cf64ac26d59a5782c9ee299bcc36901ff lib/Net/NewRelic.pm
+SHA1 67f3077bf0b097c16e1e5ed33a49562a817d9771 perl_newrelic.h
+SHA1 2adb5cbc9065eea047f857161ca99f611a422216 ppport.h
+SHA1 0e22cbbeb77fd3d5337808854246f1d97b4e4971 t/00-signature.t
+SHA1 c59e688d7fa954009b9f41e74334c53fd702fe52 t/Net-NewRelic.t
+SHA1 bb0da54f2b3f2d7955baa41ee458cb3d1887f475 t/pod.t
+SHA1 1ee2fb0c9f2bab9f585fbe112bd16489bf2182d8 typemap
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlMjPocACgkQyzKhB4jDpaW5LQCglxeSbIL/FPQp5l45S83eUUFP
+ReoAn2f6DijFObRVqbL/uvrB9CHbWOfh
+=vWGe
+-----END PGP SIGNATURE-----

@@ -1,0 +1,3 @@
+const char *					T_PTROBJ
+void ( * callback ) ( int )			T_PTROBJ
+void ( * handler ) ( void * )			T_PTROBJ

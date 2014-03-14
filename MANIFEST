@@ -1,0 +1,19 @@
+inc/Devel/CheckLib.pm
+Changes
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+NewRelic.xs
+ppport.h
+perl_newrelic.h
+README
+typemap
+t/Net-NewRelic.t
+t/00-signature.t
+t/pod.t 
+fallback/const-c.inc
+fallback/const-xs.inc
+lib/Net/NewRelic.pm
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
